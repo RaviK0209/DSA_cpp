@@ -6,7 +6,7 @@ void printPath(vector<vector<int>>& matrix, int i, int j, vector<int>& path) {
     int rows = matrix.size();
     int cols = matrix[0].size();
 
-    // Add current cell to path
+    // Add current cell to p
     path.push_back(matrix[i][j]);
 
     // Base case: if we reach the last cell, print the path
