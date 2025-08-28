@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     string s1,s2;
-    cout<<"enter first string "<<endl;;
+    cout<<"enter first string "<<endl;
     getline(cin,s1);
     s2=s1;
     reverse(s2.begin(),s2.end());
